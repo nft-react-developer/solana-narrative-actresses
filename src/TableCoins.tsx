@@ -18,7 +18,6 @@ export const TableCoins = (data: any) => {
   }, [data]);
 
   function timeAgo(date: any) {
-    console.log(new Date(date), date);
     const seconds = Math.floor((new Date().valueOf() - new Date(date).valueOf()) / 1000);
 
     const interval = Math.floor(seconds / 31536000);
@@ -94,7 +93,7 @@ export const TableCoins = (data: any) => {
               <td className="whitespace-nowrap px-3 py-4 hidden md:table-cell">{item.baseToken.name}</td>
               <td className="whitespace-nowrap px-3 py-4 font-medium">$ {formatNumber(item.fdv)}</td>
               <td className="whitespace-nowrap px-3 py-4 font-medium hidden md:table-cell">$ {formatNumber(item.volume.h24)}</td>
-              <td className={`text-lg ${item.fdv >= 0 ? 'text-green-500' : 'text-red-500'} "whitespace-nowrap px-3 py-4 font-medium`}>{item.priceChange.h24}%</td>
+              <td className={`text-lg ${item.priceChange.h24 >= 0 ? 'text-green-500' : 'text-red-500'} whitespace-nowrap px-3 py-4 font-medium`}>{item.priceChange.h24}%</td>
               <td className="whitespace-nowrap px-3 py-4 hidden md:table-cell">{timeAgo(item.pairCreatedAt)}</td>
               
             </tr>
