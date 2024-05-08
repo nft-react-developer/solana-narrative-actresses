@@ -18,6 +18,7 @@ function App() {
           '7MLFhEgcrJGBhNde8SLEMBgnMKHBbYrheQoYXUj6kyj8', // dua lipa
           '4P3BoaqZdHfcu66nPaheyj4Nd9KH1hWyVjj16nS8aMV3', // Sydney Sweeney
           'Vwf5LXkWmuY6MkDfopGS1KDaTUiszjsdEK8WeGt3Wfn', // PUPU
+          'C22MasSYVHj5zZQBWKk99borF2e4Bg21vhux1GTwLhx7'. // Taylor Swift
 
         ];
   
