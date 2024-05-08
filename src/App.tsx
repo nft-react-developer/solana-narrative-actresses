@@ -15,6 +15,7 @@ function App() {
           '8QLXTUutLKPwQWp2Bn5rB5wbYjjDQ3NM2E9AeJvJUN78', // LISA MANOBAL
           '6RPaWSdxRGuRHbcMDkYmSMvTd8Fvy8nzZo99Ge19sHDr', // ZENDAYA
           '6oY8itLkvkcQhD4ZVbVx5W7zCYHwkH529wy8UmheBFPt', // bella hadid
+          '7MLFhEgcrJGBhNde8SLEMBgnMKHBbYrheQoYXUj6kyj8', // dua lipa
 
         ];
   
