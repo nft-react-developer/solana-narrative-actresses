@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "pairs": [
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/dhrh4efuksfdenkgpmwjvyz9qnfhwakxkdaxhsrztfiw",
+      "pairAddress": "DhRH4efUkSFdEnkGPMwjVYz9qNFHWAKxKdaXhSRZTfiW",
+      "baseToken": {
+        "address": "emk2QbqPxCXipwNUYsDgTzpUQqHocVYwQvsfZmkRV9S",
+        "name": "Margot Robbie",
+        "symbol": "MARGOT"
+      },
+      "quoteToken": {
+        "address": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "SOL"
+      },
+      "priceNative": "0.000003736",
+      "priceUsd": "0.0005469",
+      "txns": {
+        "m5": {
+          "buys": 7,
+          "sells": 6
+        },
+        "h1": {
+          "buys": 79,
+          "sells": 62
+        },
+        "h6": {
+          "buys": 262,
+          "sells": 214
+        },
+        "h24": {
+          "buys": 2779,
+          "sells": 2018
+        }
+      },
+      "volume": {
+        "h24": 892414.69,
+        "h6": 70263.71,
+        "h1": 22381.31,
+        "m5": 2651.4
+      },
+      "priceChange": {
+        "m5": 2.25,
+        "h1": 28.21,
+        "h6": 37.82,
+        "h24": 159
+      },
+      "liquidity": {
+        "usd": 84621.94,
+        "base": 77329079,
+        "quote": 289.1989
+      },
+      "fdv": 464872,
+      "pairCreatedAt": 1714691030000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/emk2QbqPxCXipwNUYsDgTzpUQqHocVYwQvsfZmkRV9S.png",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://www.margotonsol.xyz/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/+wgETxg_ydCc5MGQ0"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/MARGOT_SOLANA"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/d7z8ah1wk2xbwpcns1mzxba7pnsebuqwaqmbkbhdpyzj",
+      "pairAddress": "D7z8Ah1WK2XbWpCNS1MZxBa7PnsebuQwAqMbkbhDpYZj",
+      "baseToken": {
+        "address": "8KTatZdn1S9bDuWd6diKPpXf2ciCF3P6SDE2oqDaeBoR",
+        "name": "Sydney Sweeney",
+        "symbol": "MILK"
+      },
+      "quoteToken": {
+        "address": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "SOL"
+      },
+      "priceNative": "0.000002588",
+      "priceUsd": "0.0003787",
+      "txns": {
+        "m5": {
+          "buys": 7,
+          "sells": 2
+        },
+        "h1": {
+          "buys": 54,
+          "sells": 15
+        },
+        "h6": {
+          "buys": 249,
+          "sells": 210
+        },
+        "h24": {
+          "buys": 1276,
+          "sells": 1354
+        }
+      },
+      "volume": {
+        "h24": 895164.45,
+        "h6": 105845.22,
+        "h1": 13057.07,
+        "m5": 1512.35
+      },
+      "priceChange": {
+        "m5": 0.99,
+        "h1": -1.35,
+        "h6": 15.64,
+        "h24": 56.1
+      },
+      "liquidity": {
+        "usd": 240228.08,
+        "base": 317304599,
+        "quote": 820.1488
+      },
+      "fdv": 3032048,
+      "pairCreatedAt": 1706305851000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8KTatZdn1S9bDuWd6diKPpXf2ciCF3P6SDE2oqDaeBoR.png",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://sydneysweeney.world"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/sweeneyonsol"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/sydneysweeneysol"
+          }
+        ]
+      }
+    }
+  ],
+  "pair": null
+}
