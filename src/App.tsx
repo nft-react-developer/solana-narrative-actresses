@@ -16,6 +16,8 @@ function App() {
           '6RPaWSdxRGuRHbcMDkYmSMvTd8Fvy8nzZo99Ge19sHDr', // ZENDAYA
           '6oY8itLkvkcQhD4ZVbVx5W7zCYHwkH529wy8UmheBFPt', // bella hadid
           '7MLFhEgcrJGBhNde8SLEMBgnMKHBbYrheQoYXUj6kyj8', // dua lipa
+          '4P3BoaqZdHfcu66nPaheyj4Nd9KH1hWyVjj16nS8aMV3', // Sydney Sweeney
+          'Vwf5LXkWmuY6MkDfopGS1KDaTUiszjsdEK8WeGt3Wfn', // PUPU
 
         ];
   
