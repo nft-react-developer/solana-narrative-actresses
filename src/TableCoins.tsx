@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { formatNumber } from './utils';
 import './TableCoins.scss';
 
@@ -17,9 +17,9 @@ export const TableCoins = (data: any) => {
     sortData();
   }, [data]);
 
-  function timeAgo(date) {
+  function timeAgo(date: any) {
     console.log(new Date(date), date);
-    const seconds = Math.floor((new Date() - new Date(date)) / 1000);
+    const seconds = Math.floor((new Date().valueOf() - new Date(date).valueOf()) / 1000);
 
     const interval = Math.floor(seconds / 31536000);
 
