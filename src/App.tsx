@@ -19,6 +19,8 @@ function App() {
           '4P3BoaqZdHfcu66nPaheyj4Nd9KH1hWyVjj16nS8aMV3', // Sydney Sweeney
           'Vwf5LXkWmuY6MkDfopGS1KDaTUiszjsdEK8WeGt3Wfn', // PUPU
           'C22MasSYVHj5zZQBWKk99borF2e4Bg21vhux1GTwLhx7', // Taylor Swift
+          'F29JCoMvzgKnkX3ypUF4rQ4jqngx6YsLySSci9NTnpwW', // Jennie
+          '6Lj6MM8NZvYkoyQNixS9CQwQd2WiNU8SgYQYHiX9pARJ', // MADISON
 
         ];
   
