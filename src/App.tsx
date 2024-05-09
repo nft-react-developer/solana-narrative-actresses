@@ -21,6 +21,7 @@ function App() {
           'C22MasSYVHj5zZQBWKk99borF2e4Bg21vhux1GTwLhx7', // Taylor Swift
           'F29JCoMvzgKnkX3ypUF4rQ4jqngx6YsLySSci9NTnpwW', // Jennie
           '6Lj6MM8NZvYkoyQNixS9CQwQd2WiNU8SgYQYHiX9pARJ', // MADISON
+          'Cwf2wcxj9oJmhbgfnRkFhN76BWfZzd5evXzA3LbMhKTw', // Daddario
 
         ];
   
