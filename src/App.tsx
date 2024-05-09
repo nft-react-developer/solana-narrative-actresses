@@ -22,7 +22,7 @@ function App() {
           'F29JCoMvzgKnkX3ypUF4rQ4jqngx6YsLySSci9NTnpwW', // Jennie
           '6Lj6MM8NZvYkoyQNixS9CQwQd2WiNU8SgYQYHiX9pARJ', // MADISON
           'Cwf2wcxj9oJmhbgfnRkFhN76BWfZzd5evXzA3LbMhKTw', // Daddario
-          'Dr4iNMh1kzhE1Cj7RxdSu4bSNxVkt5YvRZ3zmgCLN2Xu, // ariana grande
+          'Dr4iNMh1kzhE1Cj7RxdSu4bSNxVkt5YvRZ3zmgCLN2Xu', // ariana grande
 
         ];
   
