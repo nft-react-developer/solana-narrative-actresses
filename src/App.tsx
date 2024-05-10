@@ -30,7 +30,7 @@ function App() {
 
 
   const [data, setData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const [dataReady, setDataReady] = useState(false);
   const [dataSummary, setDataSummary] = useState<any>(null);
 
   useEffect(() => {
@@ -39,8 +39,9 @@ function App() {
         try {
           const dataResponse = await fetch(url);
           const dataResponseJson = await dataResponse.json();
+          // const dataResponseJson = jsonData;
           setData(dataResponseJson);
-          setLoading(false);
+          setDataReady(true);
 
           let summary = {
             mkcap: 0,
@@ -69,7 +70,7 @@ function App() {
 
         } catch (error) {
           console.error('Error:', error);
-          setLoading(false);
+          setDataReady(true);
         }
       }, 3000);
     };
@@ -87,14 +88,14 @@ function App() {
       </div>
       <div className="container-summary">
         {
-          dataSummary ? (<h2>Total Market Cap: {dataSummary.mkcapDisplay}</h2>) : null
+          dataReady && dataSummary ? (<h2>Total Market Cap: {dataSummary.mkcapDisplay}</h2>) : null
         }
                 {
-          dataSummary ? (<h2>Total Volume (24h): {dataSummary.volDisplay}</h2>) : null
+          dataReady && dataSummary ? (<h2>Total Volume (24h): {dataSummary.volDisplay}</h2>) : null
         }
       </div>
       <div className="container-table">
-        {loading 
+        {!dataReady 
           ? ( <div className='container-table__loader'>
                 <span className="loader"></span>
             </div>) 
